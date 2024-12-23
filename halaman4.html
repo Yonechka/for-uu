@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./yes_style.css">
+        <link rel="stylesheet" href="./styles.css">
+        <title>Bobokk</title>
+    </head> 
+    <body>
+        <div class="container">
+            <div>
+                <h1 class = "header_text">Yahh Abis mamam malah turu wkwk</h1>
+            </div>
+            <div class="gif_container">
+                <img src="https://media.tenor.com/AhI84bZIdEgAAAAj/bed-time-deep-sleep.gif" alt="Cute animated illustration">
+            </div>
+            <div>
+                <h1 class = "header_text">Bangunin dong orangnya</h1>
+                </br>
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">Bangun pakkk</button>
+                <button class="btn" id = "noButton" onmouseover="moveButton()" onclick="moveButton()">Gamauu</button>
+                <script>
+                    function nextPage() {
+                        window.location.href = "halaman5.html";
+                    }
+                    
+                    function moveButton() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                        document.getElementById('noButton').style.left = `${x}px`;
+                        document.getElementById('noButton').style.top = `${y}px`;
+                    }
+                </script> 
+            </div>
+        </div>
+       
+    </body> 
+</html>
