@@ -8,13 +8,13 @@ body {
 
 #noButton {
     position: absolute;
-    margin-left: 145px;
+    margin-left: 150px;
     transition: 0.5s;
 }
 
 #yesButton {
     position: absolute;
-    margin-right: 155px;
+    margin-right: 150px;
 }
 
 #singleButton {
@@ -27,11 +27,8 @@ body {
     font-weight: bold;
     color: rgb(255, 255, 255);
     text-align: center;
-    justify-content: center;
-    align-items: center;
     margin-top: 20px;
     margin-bottom: 0;
-    word-wrap: break-word;
 }
 
 .buttons {
